@@ -1,0 +1,8 @@
+html{
+  background: green;
+}
+.list{
+  width:100px;
+  height:100px;
+  background:url(../images/logo1.jpg) no-repeat;
+}
