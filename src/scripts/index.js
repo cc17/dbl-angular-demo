@@ -31,7 +31,7 @@ requireAll(require.context('./components/filters', true, /\.js$/) );
 requireAll(require.context('./components/services', true, /\.js$/) );
 
 //启动路由
-require('./components/routes/home');
+requireAll(require.context('./components/routes', true, /\.js$/) );
 
 
 angular.element(document).ready(function(){
